@@ -1,6 +1,6 @@
 const std = @import("std");
 
-const argsParcer = @import("fancy_args.zig");
+const argsParcer = @import("args.zig");
 
 pub fn main() !void {
     const gpa = std.heap.c_allocator;
